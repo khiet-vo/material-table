@@ -4,7 +4,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "url": "https://github.com/khiet-vo/material-table",
-  "version": "4.3.49",
+  "version": "4.3.50",
   "description": "Datatable for React based on https://material-ui.com/api/table/ with additional features",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
