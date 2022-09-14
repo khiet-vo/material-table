@@ -1,5 +1,5 @@
 {
-  "name": "@material-table/core",
+  "name": "@khietvo/material-table-core",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
