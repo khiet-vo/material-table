@@ -30,9 +30,9 @@ jobs:
           npm install
           npm run build
           npm run test
-          npm config set @material-table:registry https://registry.npmjs.org/
-          npm config set //registry.npmjs.org/:_authToken ${{ secrets.NPM_AUTH_TOKEN }}
-          npm publish --ignore-scripts
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
   create-release:
     needs: publish
     runs-on: ubuntu-latest
